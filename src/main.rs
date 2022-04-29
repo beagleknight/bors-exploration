@@ -10,12 +10,12 @@ mod tests {
 
     #[test]
     fn it_works() {
-        assert_eq!(10, foo::get_value(0));
+        assert_eq!(10, foo::sum_ten(0));
     }
 
     #[test]
     fn it_works_too() {
-        assert_eq!(12, foo::get_value(2));
+        assert_eq!(12, foo::sum_ten(2));
     }
 
     #[test]
