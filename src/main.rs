@@ -17,4 +17,9 @@ mod tests {
     fn it_works_too() {
         assert_eq!(12, foo::get_value(2));
     }
+
+    #[test]
+    fn it_works_too_too() {
+        assert_eq!(14, foo::get_value(4));
+    }
 }
